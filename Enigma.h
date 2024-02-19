@@ -270,7 +270,7 @@ namespace Enigma
     class Plugboard 
     {
     private :
-        plugboard m_plugboard{ {'A', 'U'}, { 'C', 'D' }, { 'H', 'G' } }; 
+        plugboard m_plugboard{}; 
     public  :
         Plugboard() 
         {
